@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+ import 'bootstrap/dist/css/bootstrap.min.css';
+
+ import '@fortawesome/fontawesome-free/css/all.css'; // 5.x
+
+ import 'jquery';
+ import 'popper.js';
+ import 'bootstrap';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -10,3 +18,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
